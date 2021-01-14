@@ -1,7 +1,7 @@
 - name: foo_step
   tag: master
-  service: app
+  service: wordpress
   command: echo foo
 - name: bar_step
-  service: app
+  service: db
   command: echo bar
